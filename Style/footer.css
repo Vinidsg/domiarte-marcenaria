@@ -1,0 +1,56 @@
+footer {
+    background-color: #666741;
+  }
+  
+  .imgFooter {
+    width: 170px;
+  }
+  
+  .redesSociais>a {
+    margin-top: 5px;
+    margin-left: 20px;
+    color: #d9d9d9;
+    font-size: 25px;
+    margin-bottom: 10px;
+
+  }
+  .redesSociais {
+    width: 100%;
+    background-color: #747554;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .bi-instagram {
+    margin-left: -15px;
+  }
+  
+  .redesSociais>a:hover {
+    color: rgb(184, 181, 181);
+    transition: 0.25s;
+  }
+  
+  .iconesInformacoes>i {
+    color: #d9d9d9;
+    font-size: 25px;
+  }
+  
+  .iconesInformacoes>p {
+    color: #d9d9d9;
+    font-size: 15px;
+    padding-top: 15px;
+  }
+  
+  .iconesInformacoesDir>p {
+    color: #d9d9d9;
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  
+  .demaisInformacoes {
+    padding-right: 0px;
+    padding-left: 150px;
+    margin-bottom: 10px;
+  }
