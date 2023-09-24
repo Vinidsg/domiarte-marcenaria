@@ -13,15 +13,16 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="/domiarte-marcenaria/Style/header.css">
-  <link rel="stylesheet" href="/domiarte-marcenaria/Style/footer.css">
+  <link rel="stylesheet" href="/Style/header.css">
+  <link rel="stylesheet" href="/Style/footer.css">
+  <link rel="stylesheet" href="/Style/index.css">
 </head>
 
 <body>
   <nav class="header navbar navbar-expand-lg">
     <div class="container">
       <a class="navbar-brand" href="./index.html">
-        <img src="/Logo - Sem Fundo.png" alt="" class="imgHeader">
+        <img src="/Images/Logo - Sem Fundo.png" alt="" class="imgHeader">
       </a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#headerItens"
@@ -47,6 +48,98 @@
       </div>
     </div>
   </nav>
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/Images/cozinha.jpg" class="d-block w-100 img1" alt="...">
+        <div class="carousel-caption d-none d-md-block textImg">
+          <h5>Móveis Planejados</h5>
+          <p>Da maneira que desejar.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container servicos">
+    <!-- Conteúdo para dispositivos móveis -->
+    <div class="row d-md-none">
+        <!-- Quadrados de Dormitórios e Cozinhas centralizados -->
+        <div class="col-12 text-center mb-3">
+            <div class="servicesOptions">
+                <img src="/Images/camaIcon.png" alt="" class="img-fluid iconImg">
+                <h4>Dormitórios</h4>
+                <p>Guarda-roupas estilizados do seu jeito para maior organização de seus pertences.</p>
+            </div>
+            <div class="servicesOptions">
+                <img src="/Images/cozinhaIcon.png" alt="" class="img-fluid iconImg">
+                <h4>Cozinhas</h4>
+                <p>Armários de cozinha feitos em alto padrão para um design perfeito.</p>
+            </div>
+        </div>
+        <!-- Quadrados de Banheiros e Outros centralizados -->
+        <div class="col-12 text-center mt-3">
+            <div class="servicesOptions">
+                <img src="/Images/piaIcon.png" alt="" class="img-fluid iconImg">
+                <h4>Banheiros</h4>
+                <p>Gabinetes feitos para banheiro e com material adaptado a este ambiente.</p>
+            </div>
+            <div class="servicesOptions mt-3">
+                <img src="/Images/madeiraIcon.png" alt="" class="img-fluid iconImg">
+                <h4>Outros</h4>
+                <p>Fazemos outros projetos gerais como óticas, escolas, escritórios e etc.</p>
+            </div>
+        </div>
+        <!-- Imagem com botão na parte inferior centralizada -->
+        <div class="col-12 text-center mt-3">
+            <img src="/Images/cozinha2.jpg" alt="" class="img-fluid img2">
+            <a href="#" class="btnSolicitarOrcamento mt-3">Solicite um orçamento</a>
+        </div>
+    </div>
+
+    <!-- Conteúdo para dispositivos de médio e grande porte (md e acima) -->
+    <div class="row d-none d-md-flex align-items-center">
+        <!-- Quadrados de Dormitórios e Cozinhas à esquerda -->
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-6 servicesOptions">
+                    <img src="/Images/camaIcon.png" alt="" class="img-fluid iconImg">
+                    <h4>Dormitórios</h4>
+                    <p>Guarda-roupas estilizados do seu jeito para maior organização de seus pertences.</p>
+                </div>
+                <div class="col-md-6 servicesOptions margem-esquerda">
+                    <img src="/Images/cozinhaIcon.png" alt="" class="img-fluid iconImg">
+                    <h4>Cozinhas</h4>
+                    <p>Armários de cozinha feitos em alto padrão para um design perfeito.</p>
+                </div>
+            </div>
+            <!-- Quadrados de Banheiros e Outros abaixo -->
+            <div class="row mt-3">
+                <div class="col-md-6 servicesOptions">
+                    <img src="/Images/piaIcon.png" alt="" class="img-fluid iconImg">
+                    <h4>Banheiros</h4>
+                    <p>Gabinetes feitos para banheiro e com material adaptado a este ambiente.</p>
+                </div>
+                <div class="col-md-6 servicesOptions margem-esquerda">
+                    <img src="/Images/madeiraIcon.png" alt="" class="img-fluid iconImg">
+                    <h4>Outros</h4>
+                    <p>Fazemos outros projetos gerais como óticas, escolas, escritórios e etc.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Imagem com botão à direita -->
+        <div class="col-md-6" style="position: relative;">
+            <img src="/Images/cozinha2.jpg" alt="" class="img-fluid img2">
+            <a href="#" class="btnSolicitarOrcamento">
+                <i class="bi bi-clipboard2-check" style="display: block; margin: 0 auto 5px;"></i>
+                Solicite um orçamento
+            </a>
+        </div>
+    </div>
+</div>
+
+  
+  
 
   <footer class="container-fluid mt-auto">
     <div class="container">

@@ -1,0 +1,105 @@
+.img1 {
+    filter: brightness(40%);
+}
+
+.textImg>h5 {
+    font-size: 70px;
+    
+}
+
+.textImg>p {
+    font-size: 30px;
+}
+
+.servicos{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.img2 {
+    width: 600px;
+    filter: brightness(40%);
+}
+
+.btnSolicitarOrcamento {
+    width: 600px;
+    height: 150px;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(102, 103, 65, 0.5); 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0px;
+    text-align: center;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+    font-size: 24px;
+  }  
+
+.iconImg {
+    width: 70px;
+    text-align: center;
+    margin: 0;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.col-md-6 > h4 {
+    color: #818259;
+}
+
+.col-md-6 > p {
+    color: #818259;
+}
+
+.servicesOptions {
+    border: 1px solid #ccc; /* Adiciona uma borda fina cinza claro */
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra */
+  }
+  
+
+.margem-esquerda {
+    margin-left: 25px;
+}
+
+@media(max-width: 480px) {
+    .textImg>h5 {
+        font-size: 70px;
+    }
+    
+    .textImg>p {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 768px) {
+    .textImg>h5 {
+        font-size: 20px;
+    }
+    
+    .textImg>p {
+        font-size: 30px;
+    }
+}
+
+
+@media(max-width: 991px) {
+    .textImg>h5 {
+        font-size: 50px;
+    }
+    
+    .textImg>p {
+        font-size: 25px;
+    }
+}

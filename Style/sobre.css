@@ -1,0 +1,30 @@
+.sobre {
+    background-color: #f2f2f2;    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-center {
+    font-size: 18px;
+    color: #333;
+    padding: 20px;
+}
+
+@media(max-width: 480px) {
+    .text-center {
+        font-size: 18px;
+        color: #333;
+        padding: 0px;
+    }
+    .sobre {
+        background-color: #f2f2f2;    
+        margin-right: 0px;    
+    }
+}
